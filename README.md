@@ -1,58 +1,46 @@
-# template
-
-**template for pathology atlas repositories**
+# Brain Invasive Meningioma
 
 
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-
-
-> do not forget to activate github pages for the new repository
-
-
-```zsh
-vips dzsave HE.svs HE
-```
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language brain-invasive-meningioma, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
 
 ```{asis, echo = (language == "TR")}
-# TemplateTR
+# Beyin İnvazyonu Gösteren Meningiom
 ```
 
 
 ```{asis, echo = (language == "EN")}
-# TemplateEN
+# Brain Invasive Meningioma
 ```
 
 
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Beyin İnvazyonu Gösteren Meningiom**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/brain-invasive-meningioma/HE.html](https://pathologyatlas.github.io/brain-invasive-meningioma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/brain-invasive-meningioma/HE.html" style="height:400px;width:100%;"></iframe>
 
 ```
 
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Brain Invasive Meningioma**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/brain-invasive-meningioma/HE.html](https://pathologyatlas.github.io/brain-invasive-meningioma/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/brain-invasive-meningioma/HE.html" style="height:400px;width:100%;"></iframe>
 
 ```
 
